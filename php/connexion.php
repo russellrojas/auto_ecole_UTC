@@ -1,9 +1,9 @@
 <?php
 // Paramètres de connexion
-define("DB_HOST", "127.0.0.1");
-define("DB_USER", "postgres");
-define("DB_PASS", "russell96");
-define("DB_NAME", "db_autoecole");
+define("DB_HOST", "XXX.X.X.X");
+define("DB_USER", "XXXXXX");
+define("DB_PASS", "your_user");
+define("DB_NAME", "your_date_base");
 
 // Chaîne de connexion PostgreSQL
 $connect = pg_connect("host=".DB_HOST." dbname=".DB_NAME." user=".DB_USER." password=".DB_PASS);
